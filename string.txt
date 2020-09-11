@@ -1,0 +1,12 @@
+//How to print String in dart?
+ 
+  String s1="How are you?\n"
+  String s2="I\' m fine";  //For special symbol we use '\' and the o/p is I'm
+  String s3= s1 + s2;
+  void main() =>runApp(
+                        Center(child:Text(s3
+                               style:TextStyle(fontSize:20),
+                               textDirection:TextDirection.ltr
+  )),
+                               
+);

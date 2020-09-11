@@ -1,0 +1,11 @@
+ //Hello, Here is my code about the dart- variable ....
+ //How to declair variable in dart?
+  
+
+  int a=10;
+  void main() =>rubApp(
+                        Center(child:Text('$a',   //Here we use '$' sign for print the integer
+                               style:TextStyle(fontSize:20),
+                               textDirection:TextDirection.ltr
+)),
+);

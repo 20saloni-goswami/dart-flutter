@@ -1,0 +1,9 @@
+  //Hello, Welcome to my first flutter code which is "Hello World"
+
+
+ void main() =>runApp(             //this is one line code
+   Center(child:Text("Hello World",  //Center is a widgets
+          style: TextStyle(fontSize:20),
+          textDirection:TextDirection.ltr //left to right
+)),
+);

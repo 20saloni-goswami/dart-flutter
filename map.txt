@@ -1,0 +1,8 @@
+//Map Function in dart....
+var details = {'Username':'Saloni Goswami', 'password':'saloni1234'};
+void main() => runApp(
+                      Center(child: Text('$details',
+                            style:TextStyle(fontSize:30),
+                            textDirection:TextDirection.ltr
+                            )),
+);

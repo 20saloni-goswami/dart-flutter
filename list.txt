@@ -1,0 +1,10 @@
+//How to declair list in dart?
+  
+List<int> numbers= [34 , 78 , 89, 90, 66];
+void main() =>runApp(
+                      Center(child:Text('$numbers',
+                             style:TextStyle(fontSize:20),
+                             textDirection:TextDirection.ltr
+)),
+
+);
